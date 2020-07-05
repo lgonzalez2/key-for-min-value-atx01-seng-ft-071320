@@ -6,6 +6,15 @@ def key_for_min_value(name_hash)
   min_key = ""
   value_num = 1000
   
+  if name_hash.length > 0 
+    
+  else 
+    
+    nil
+  
+  end 
+  
+  
   name_hash.each do |key, value|
     if value < value_num
       value_num = value 
